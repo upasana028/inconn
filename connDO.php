@@ -1,12 +1,16 @@
 <?php
 
-public class connDO{
+class connDO{
 private $username;
 private $password;
 private $domain;
-public function connDO($usr,$pass,$dom){
-	$username = $usr;
-	$password = $pass;
-	$domain = $dom;
+function connDO($usr,$pass,$dom){
+	$this->username = $usr;
+	$this->password = $pass;
+	$this->domain = $dom;
+	}
+
+function testMe(){
+	echo $this->username ;
 	}
 }

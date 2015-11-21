@@ -13,5 +13,8 @@ function testMe(){
 	}
 }
 
-$conndao = new connDAO(new connDO("a","b","c"));
+$username = "learnmyw_root";
+$password = "Clock@1234";
+$hostname = "localhost"; 
+$conndao = new connDAO(new connDO($hostname,$username,$password));
 $conndao->testMe();

@@ -1,7 +1,7 @@
 <?php
-$username = "learnmyw_root";
-$password = "Clock@1234";
-$hostname = "localhost"; 
+$username = "learnmywq1_root";
+$password = "Clock!@1234!";
+$hostname = "local2host$"; 
 
 //connection to the database
 $dbhandle = mysql_connect($hostname, $username, $password) 
